@@ -1,0 +1,8 @@
+[general]
+input_file_name = berlin52.tsp
+mutation_rate = 1
+population_size = 200
+elitism_rate = 0.1
+tournament_rate = 0.1
+max_iterations = 500
+parent_rate = 0.2

@@ -1,0 +1,6 @@
+[general]
+topology = 3,5,1
+weight_min = -1
+weight_max = 1
+partition_num = 5
+learning_rate = 0.6

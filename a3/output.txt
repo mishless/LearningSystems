@@ -1,0 +1,454 @@
+***** CONFIGURATION *****
+Population size:  200
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    0.1
+
+Tournament size:  60
+Parent number:    40
+Elite number:     20
+Crossover number: 180
+
+Best results:
+    9603.187604042587
+    9395.926749273523
+    10093.374542786816
+    11028.049617128143
+    9776.42203411801
+    10007.37573844651
+    8757.57119061152
+    10099.532219584913
+    10000.341256306461
+    9828.968308235186
+[Finished in 429.7s]
+
+
+***** CONFIGURATION *****
+Population size:  350
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    0.1
+
+Tournament size:  105
+Parent number:    70
+Elite number:     35
+Crossover number: 315
+
+Best results:
+    9370.037689488498
+    8778.085979661064
+    9949.091221005148
+    10027.233771535502
+    9427.620130493184
+    9515.525566766008
+    9638.375758111199
+    8851.251609737275
+    10250.53653435241
+    9547.906586811692
+[Finished in 931.6s]
+
+
+***** CONFIGURATION *****
+Population size:  100
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    0.1
+
+Tournament size:  30
+Parent number:    20
+Elite number:     10
+Crossover number: 90
+
+Best results:
+    10856.847488221269
+    10202.825117505548
+    8968.809185452319
+    11133.29043050422
+    10199.706880221594
+    10010.376261721349
+    10705.61304532116
+    12319.243567436519
+    10299.0357044637
+    9850.480388443764
+[Finished in 399.3s]
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    0.1
+
+Tournament size:  15
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    10220.434012088535
+    10513.204784381145
+    10557.763556041613
+    10454.035921487
+    9668.264033289037
+    10728.667643582285
+    10199.456218521158
+    10836.433356666785
+    10321.760218841799
+    10010.141858615558
+[Finished in 189.9s]
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    0.7
+
+Tournament size:  15
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    8963.766051262095
+    10231.310489911448
+    10107.489128103643
+    10186.730483853293
+    10196.149062163835
+    10483.308083827198
+    9883.556613368386
+    9980.433714570503
+    9642.420843641894
+    11254.092787630329
+[Finished in 193.6s]
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    1.0
+
+Tournament size:  15
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    9517.124329168815
+    9835.896189467461
+    10278.226819692669
+    8259.124301487087
+    8900.270949574104
+    9572.1798557807
+    9034.721097643795
+    8898.211607069847
+    9447.466255665073
+    10401.728083190132
+[Finished in 198.2s]
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    1.0
+Mutation amount:  0.02
+
+Tournament size:  15
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    10336.941438731223
+    8837.722056258912
+    9834.307555750749
+    8987.963645650714
+    9637.615419678681
+    8999.823519492273
+    10156.541135172767
+    9814.086896120934
+    9358.259381983906
+    9505.611184587971
+[Finished in 196.3s]
+
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    0.5
+Mutation amount:  0.02
+
+Tournament size:  15
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    10638.403989534352
+    9997.279033961928
+    10074.50509720862
+    10435.301190257758
+    11180.705698441065
+    9881.520986470925
+    10506.19782313935
+    10298.013879296699
+    10129.22802605568
+    11439.178531335376
+[Finished in 194.7s]
+
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    0.5
+Mutation amount:  0.1
+
+Tournament size:  15
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    13089.14049142192
+    14474.166785017971
+    13769.528306451492
+    13680.495763722598
+    13351.840398057348
+    12877.952196708815
+    14183.977306643941
+    12537.245080528064
+    14664.517878064158
+    14490.053169089364
+[Finished in 203.3s]
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.2
+Tournament rate:  0.3
+Mutation rate:    1.0
+
+Tournament size:  15
+Parent number:    10
+Elite number:     10
+Crossover number: 40
+
+Best results:
+    9187.00599149717
+    9787.336274658132
+    9084.487839953405
+    9590.778035013866
+    9324.27110403718
+    9461.967781950169
+    10652.560381912128
+    9538.925052487884
+    9937.758402054442
+    8873.935117562572
+[Finished in 194.0s]
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.04
+Tournament rate:  0.3
+Mutation rate:    1.0
+
+Tournament size:  15
+Parent number:    10
+Elite number:     2
+Crossover number: 48
+
+Best results:
+    9363.751848431197
+    9445.81721194664
+    8968.405750950435
+    10559.167413346742
+    10362.690537670296
+    10455.287643086827
+    9334.87447872482
+    10930.405789789582
+    10591.674811724568
+    9915.335434915232
+[Finished in 203.1s]
+
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.3
+Mutation rate:    1.0
+
+Tournament size:  15
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    9904.68767109489
+    10350.304785555527
+    10141.574261743512
+    9046.659693180558
+    11274.977949099499
+    9778.601350340889
+    9601.771961581064
+    9702.587884030672
+    9394.651178597438
+    9943.985054900288
+[Finished in 203.1s]
+
+
+
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.1
+Mutation rate:    1.0
+
+Tournament size:  5
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    10764.843495858837
+    9492.377160512584
+    10551.178476077444
+    8699.395085166725
+    9330.222724834173
+    9451.804449905569
+    10390.80325775162
+    9160.433349252471
+    9679.918815243991
+    10551.249274015843
+[Finished in 196.8s]
+
+
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.1
+Mutation rate:    1.0
+Parent rate:      0.4
+
+Tournament size:  5
+Parent number:    20
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    11793.493874494929
+    10438.289164640282
+    9911.703297618438
+    8946.764281668693
+    9911.794874645095
+    8939.049297309459
+    10193.446436144306
+    10944.344863785978
+    10574.353713212147
+    9094.010691575046
+[Finished in 200.1s]
+
+
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.1
+Mutation rate:    1.0
+Parent rate:      0.05
+
+Tournament size:  5
+Parent number:    2
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    9599.052777583003
+    9879.11828340615
+    10244.632880780824
+    9982.557133546272
+    9935.63903069328
+    9147.67332626481
+    9471.912406240548
+    9881.497678488959
+    10304.063325203095
+    10098.039190402826
+[Finished in 192.9s]
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.1
+Mutation rate:    1.0
+Parent rate:      0.2
+
+Tournament size:  5
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    10706.81062774271
+    10145.605333752044
+    9998.431342801787
+    8370.21371494727
+    9362.325361537998
+    9918.774302193618
+    10521.060542875372
+    9156.526011253509
+    9273.059153192587
+    8808.465310722757
+[Finished in 1905.8s]
+
+
+
+
+
+***** CONFIGURATION *****
+Population size:  50
+Elitism rate:     0.1
+Tournament rate:  0.1
+Mutation rate:    1.0
+Parent rate:      0.2
+
+Tournament size:  5
+Parent number:    10
+Elite number:     5
+Crossover number: 45
+
+Best results:
+    10706.81062774271
+    10145.605333752044
+    9998.431342801787
+    8370.21371494727
+    9362.325361537998
+    9918.774302193618
+    10521.060542875372
+    9156.526011253509
+    9273.059153192587
+    8808.465310722757
+[Finished in 1905.8s]
