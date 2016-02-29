@@ -179,7 +179,7 @@ def evaluate_population(population):
     evaluations = [];
 
     for individual in population:
-        evaluations.append(evaluate_individual(individual));
+        evaluations.append((evaluate_individual(individual), individual));
 
     return evaluations;
 
@@ -350,6 +350,8 @@ def test_stuff():
 
 def perform_GA():
     best_solutions = [];
+    best_individuals = [];
+    best_solution = None;
 
     #print("***** ALGORITHM START *****");
 
@@ -362,7 +364,11 @@ def perform_GA():
 
         evaluations = evaluate_population(population);
 
-        best_solutions.append(min(evaluations));
+        best_solution = min(evaluations, key=lambda evaluation:evaluation[0])
+        best_solutions.append(best_solution[0]);
+        best_individuals.append(best_solution[1]);
+
+        evaluations = [evaluation[0] for evaluation in evaluations]
 
         if iteration_counter == max_iterations:
             break;   
@@ -380,7 +386,7 @@ def perform_GA():
         if is_population_valid(population) == False:
             break;
 
-    return best_solutions;
+    return (best_solutions, best_individuals);
 
 def do_what_needs_to_be_done():
     results = [];
@@ -392,15 +398,16 @@ def do_what_needs_to_be_done():
     for i in range(0, 10):
         print("Starting cycle " + str(i+1));
         results.append(perform_GA());
-        bests.append(results[i][-1]);
+        bests.append((results[i][0][-1], results[i][1][-1]));
 
-    best_ind = bests.index(min(bests));
+    best_ind = bests.index(min(bests, key=lambda best:best[0]));
 
-    print("");
+    print(str(best_ind));
     print("***** RESULTS *****");
-    print("Best result is " + str(min(bests)));
+    print("Best result is " + str(bests[best_ind][0]));
+    print("Best result is " + str(bests[best_ind][1]));
 
-    plt.plot(results[best_ind]);
+    plt.plot(results[best_ind][0]);
     plt.show();
 
     
