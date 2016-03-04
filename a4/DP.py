@@ -1,7 +1,7 @@
 # encoding: utf-8
 '''
 Implementation of value iteration algorithm for finding the optimal value for all states in a graph;
-Using the optimal value the optimal policy can be eaily constrcuted and thus the shortest path is found;
+Using the optimal value the optimal policy can be easily constrcuted and thus the shortest path is found;
 Results are validated using Bellman-Ford shortest path algorithm;
 
 Authors: Mihaela Stoycheva <mihaela.stoycheva@gmail.com> & Vukan Turkulov <vukant@gmail.com>
