@@ -39,16 +39,20 @@ Two data sets are available to be downloaded in a1 forlder - Data_Training and D
 The task is to develop a competent neural network to predict etch depth based on Data_Training. Then you should examine the performance of the learned neural network on Data_Test. Only the three features selected need to be used as inputs to the neural network (you just use the results of feature selection here). As learning algorithm you can use GA or BP as your free choice.
 
 #### Results
-1. STtructure of the ANN
-The structure of the neural network is configurable by the user, but for the results presented below we used three-layer ANN with 3 inputs, 5 hidden units and 1 output.
-2. Learning algorithm used
-The algorithm used for learning is backpropagation – basically it is iterative algorithm and on each iteration the inputs are forwarded though the network and the outputs are calculated. Then the error of each output is calculated and weights are modified. The first iteration uses random small weights. 
-3. Performance
-![alt text](https://github.com/mishless/LearningSystems/blob/master/a1/ann.png "ANN Perfomance")
+1. Structure of the ANN
 
-On the vertical axis is the error and on the horizontal axis there is the number of iterations that have passed. 
+   The structure of the neural network is configurable by the user, but for the results presented below we used three-layer ANN with     3 ⋅inputs, 5 hidden units and 1 output.
+2. Learning algorithm used
+
+   The algorithm used for learning is backpropagation – basically it is iterative algorithm and on each iteration the inputs are     forwarded though the network and the outputs are calculated. Then the error of each output is calculated and weights are modified. The first iteration uses random small weights. 
+3. Performance
+   ![alt text](https://github.com/mishless/LearningSystems/blob/master/a1/ann.png "ANN Perfomance")
+
+   On the vertical axis is the error and on the horizontal axis there is the number of iterations that have passed. 
 4. Performance on training data
-Error on whole training data set: 0.00591729466547751
+
+   Error on whole training data set: 0.00591729466547751
 5. Performance on test data
-Test data error is 0.004609162462734982
+
+   Test data error is 0.004609162462734982
 
