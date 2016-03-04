@@ -328,8 +328,10 @@ def calculate_iteration_num(training, validation):
     return iterations;
 
 def train_network(number_of_iterations):
+    errors = []
     for i in range(0, number_of_iterations):
-        iterate_once(data_training);
+        errors.append(iterate_once(data_training));
+    return errors;
 
     
 def estimate_iteration_num():
@@ -361,6 +363,7 @@ def estimate_and_train():
 
     global weights;
     
+    all_errors = [];
     errors = [];
     weight_sets = [];
     
@@ -369,12 +372,14 @@ def estimate_and_train():
     for i in range(0, 10):
         print("Running training network, cycle " + str(i));
         fill_random_weights(weight_min, weight_max);
-        train_network(number_of_iterations);
+        all_errors.append(train_network(number_of_iterations));
         errors.append(get_mean_error(data_training));
         print("Error on whole training data set: " + str(errors[-1]));
         weight_sets.append(weights);
 
     weights = weight_sets[errors.index(min(errors))];
+    plt.plot(all_errors[errors.index(min(errors))]);
+    plt.show()
 
     test_error = get_mean_error(data_test);
     print("Test data error is " + str(test_error));
