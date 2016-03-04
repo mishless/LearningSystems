@@ -103,7 +103,7 @@ def main(argv=None):
     try:
         paths = process_input(argv)
         graph = create_graph(paths)
-        optimal_values = value_iterate_algorithm(graph, "F", 00.1)
+        optimal_values = value_iterate_algorithm(graph, "F", 0.001)
         policy = calculate_policy(graph, optimal_values)
         shortest_paths = find_shortest_paths(graph, "F", policy)
         bellman_ford_shortest_paths = bellman_ford(graph, "F")
